@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world-server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +30,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.www">
     <configuration name="hello-world-server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hello-world-server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="www" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/musicstoreapp/bin/www" working-dir="$PROJECT_DIR$/musicstoreapp/bin">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.www" />
         <item itemvalue="Node.js.hello-world-server.js" />
       </list>
     </recent_temporary>
@@ -49,8 +52,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648195544527</updated>
-      <workItem from="1648195546776" duration="377000" />
+      <workItem from="1648195546776" duration="1205000" />
     </task>
+    <task id="LOCAL-00001" summary="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual.">
+      <created>1648196026620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648196026621</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,6 +77,28 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/musicstoreapp/app.js</url>
+          <line>16</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/musicstoreapp/app.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
