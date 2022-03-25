@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual.">
+    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-7.2.1-Express, depuración y variables de entorno.">
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648195544527</updated>
-      <workItem from="1648195546776" duration="1205000" />
+      <workItem from="1648195546776" duration="2561000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual.">
       <created>1648196026620</created>
@@ -61,7 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648196026621</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SDI-2122-309-7.2-Express, depuración y variables de entorno.">
+      <created>1648196946397</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648196946397</updated>
+    </task>
+    <task id="LOCAL-00003" summary="SDI-2122-309-7.2.1-Express, depuración y variables de entorno.">
+      <created>1648197117426</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648197117426</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,25 +102,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/musicstoreapp/app.js</url>
-          <line>16</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/musicstoreapp/app.js</url>
-          <line>12</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="SDI-2122-309-7.2-Express, depuración y variables de entorno." />
+    <MESSAGE value="SDI-2122-309-7.2.1-Express, depuración y variables de entorno." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-7.2.1-Express, depuración y variables de entorno." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
