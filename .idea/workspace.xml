@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-7.5-Vistas y motores de plantillas.">
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/authors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/authors/add.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/authors/authors.twig" afterDir="false" />
+    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-7.101-Ejercicio complementario 1.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/authors.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/authors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/authors/add.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/authors/add.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +92,7 @@
       <updated>1648195544527</updated>
       <workItem from="1648195546776" duration="6540000" />
       <workItem from="1648480908926" duration="168000" />
-      <workItem from="1648738321674" duration="6450000" />
+      <workItem from="1648738321674" duration="7231000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual.">
       <created>1648196026620</created>
@@ -139,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648202067610</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="SDI-2122-309-7.101-Ejercicio complementario 1.">
+      <created>1648745033555</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648745033555</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +167,8 @@
     <MESSAGE value="SDI-2122-309-7.3-División de las rutas en módulos, peticiones GET y&#10;             parámetros" />
     <MESSAGE value="SDI-2122-309-7.4-Recursos estáticos, peticiones POST y parámetros,&#10;             Enrutamiento y comodines" />
     <MESSAGE value="SDI-2122-309-7.5-Vistas y motores de plantillas." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-7.5-Vistas y motores de plantillas." />
+    <MESSAGE value="SDI-2122-309-7.101-Ejercicio complementario 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-7.101-Ejercicio complementario 1." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
