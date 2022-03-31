@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Autores</title>
+</head>
+<body>
+<h1>{{ seller }}</h1>
+<ul>
+    {% for author in authors %}
+        <li>
+            {{ author.name }} - {{ author.group }} - {{ author.role }}
+        </li>
+    {% endfor %}
+</ul>
+</body>
+</html>

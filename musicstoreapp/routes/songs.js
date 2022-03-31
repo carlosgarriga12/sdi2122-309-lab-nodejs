@@ -32,6 +32,14 @@ module.exports = function(app, twig) {
         res.render("add.twig");
     });
 
+    app.post('/songs/add', function (req, res) {
+        let response = "Canción agregadada: " + req.body.title + "<br>"
+        + " genero: " + req.body.kind + "<br>"
+        + " precio: " + req.body.price
+
+        res.send(response)
+    });
+
     app.get('/promo*', function (req, res) {
         res.send('Respuesta al patrón promo*');
     });
