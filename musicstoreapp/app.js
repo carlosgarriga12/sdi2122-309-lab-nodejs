@@ -12,7 +12,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 let indexRouter = require('./routes/index');
 let usersRouter = require('./routes/users');
-require("./routes/songs.js")(app);
+
+const { MongoClient } = require("mongodb");
+const url = 'mongodb+srv://admin:sdi@tiendamusica.oilsu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+app.set('connectionStrings', url);
+require("./routes/songs.js")(app, MongoClient);
 require("./routes/authors")(app);
 
 // view engine setup

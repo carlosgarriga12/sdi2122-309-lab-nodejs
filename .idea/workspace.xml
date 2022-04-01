@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-7.101-Ejercicio complementario 1.">
+    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-7.102-Ejercicio complementario 2.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/authors.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/authors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/authors/add.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/authors/add.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +95,8 @@
       <updated>1648195544527</updated>
       <workItem from="1648195546776" duration="6540000" />
       <workItem from="1648480908926" duration="168000" />
-      <workItem from="1648738321674" duration="7231000" />
+      <workItem from="1648738321674" duration="7301000" />
+      <workItem from="1648796731862" duration="1291000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual.">
       <created>1648196026620</created>
@@ -143,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648745033555</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="SDI-2122-309-7.102-Ejercicio complementario 2.">
+      <created>1648745778193</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648745778193</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +179,8 @@
     <MESSAGE value="SDI-2122-309-7.4-Recursos estáticos, peticiones POST y parámetros,&#10;             Enrutamiento y comodines" />
     <MESSAGE value="SDI-2122-309-7.5-Vistas y motores de plantillas." />
     <MESSAGE value="SDI-2122-309-7.101-Ejercicio complementario 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-7.101-Ejercicio complementario 1." />
+    <MESSAGE value="SDI-2122-309-7.102-Ejercicio complementario 2." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-7.102-Ejercicio complementario 2." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
