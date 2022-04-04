@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-8.1- Acceso a datos de Mongo desde Node.js.">
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" afterDir="false" />
+    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-8.2- Arquitectura para el acceso a datos.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/song.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/song.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/add.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/add.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -36,21 +44,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.14.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.26" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/musicstoreapp/views/authors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\carlo\IdeaProjects\sdi2122-309-lab-nodejs\musicstoreapp\views\songs" />
       <recent name="C:\Users\carlo\IdeaProjects\sdi2122-309-lab-nodejs\musicstoreapp\views\authors" />
       <recent name="C:\Users\carlo\IdeaProjects\sdi2122-309-lab-nodejs\musicstoreapp\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\carlo\IdeaProjects\sdi2122-309-lab-nodejs\musicstoreapp\views\songs" />
       <recent name="C:\Users\carlo\IdeaProjects\sdi2122-309-lab-nodejs\musicstoreapp\views" />
       <recent name="C:\Users\carlo\IdeaProjects\sdi2122-309-lab-nodejs\musicstoreapp\public" />
     </key>
@@ -94,6 +105,11 @@
       <workItem from="1648480908926" duration="168000" />
       <workItem from="1648738321674" duration="7301000" />
       <workItem from="1648796731862" duration="1795000" />
+      <workItem from="1648798582326" duration="550000" />
+      <workItem from="1648799165301" duration="3055000" />
+      <workItem from="1648802272927" duration="880000" />
+      <workItem from="1649056510830" duration="15000" />
+      <workItem from="1649057176276" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual.">
       <created>1648196026620</created>
@@ -158,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648798310564</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="SDI-2122-309-8.2- Arquitectura para el acceso a datos.">
+      <created>1648798826707</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648798826707</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +208,8 @@
     <MESSAGE value="SDI-2122-309-7.101-Ejercicio complementario 1." />
     <MESSAGE value="SDI-2122-309-7.102-Ejercicio complementario 2." />
     <MESSAGE value="SDI-2122-309-8.1- Acceso a datos de Mongo desde Node.js." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-8.1- Acceso a datos de Mongo desde Node.js." />
+    <MESSAGE value="SDI-2122-309-8.2- Arquitectura para el acceso a datos." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-8.2- Arquitectura para el acceso a datos." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
