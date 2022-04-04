@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-8.2- Arquitectura para el acceso a datos.">
+    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-8.3- Subida a ficheros y gestión de colecciones.">
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/repositories/usersRepository.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/login.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/signup.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/song.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/song.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/signup.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/add.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/add.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -109,7 +110,7 @@
       <workItem from="1648799165301" duration="3055000" />
       <workItem from="1648802272927" duration="880000" />
       <workItem from="1649056510830" duration="15000" />
-      <workItem from="1649057176276" duration="300000" />
+      <workItem from="1649057176276" duration="2610000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual.">
       <created>1648196026620</created>
@@ -181,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648798826707</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="SDI-2122-309-8.3- Subida a ficheros y gestión de colecciones.">
+      <created>1649057779579</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1649057779579</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +217,8 @@
     <MESSAGE value="SDI-2122-309-7.102-Ejercicio complementario 2." />
     <MESSAGE value="SDI-2122-309-8.1- Acceso a datos de Mongo desde Node.js." />
     <MESSAGE value="SDI-2122-309-8.2- Arquitectura para el acceso a datos." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-8.2- Arquitectura para el acceso a datos." />
+    <MESSAGE value="SDI-2122-309-8.3- Subida a ficheros y gestión de colecciones." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-8.3- Subida a ficheros y gestión de colecciones." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
