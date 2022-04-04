@@ -41,6 +41,14 @@ let indexRouter = require('./routes/index');
 
 const url = 'mongodb+srv://admin:sdi@tiendamusica.oilsu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 app.set('connectionStrings', url);
+
+const userSessionRouter = require('./routes/userSessionRouter');
+const userAudiosRouter = require('./routes/userAudiosRouter');
+app.use("/songs/add",userSessionRouter);
+app.use("/publications",userSessionRouter);
+app.use("/audios/",userAudiosRouter);
+app.use("/shop/",userSessionRouter)
+
 let songsRepository = require("./repositories/songsRepository.js");
 songsRepository.init(app, MongoClient);
 require("./routes/songs.js")(app, songsRepository);
