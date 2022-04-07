@@ -37,8 +37,6 @@ require("./routes/users.js")(app, usersRepository);
 
 let indexRouter = require('./routes/index');
 
-
-
 const url = 'mongodb+srv://admin:sdi@tiendamusica.oilsu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 app.set('connectionStrings', url);
 
@@ -51,8 +49,11 @@ app.use("/shop/",userSessionRouter)
 
 let songsRepository = require("./repositories/songsRepository.js");
 songsRepository.init(app, MongoClient);
-require("./routes/songs.js")(app, songsRepository);
+let commentsRepository = require("./repositories/commentsRepository.js")
+commentsRepository.init(app, MongoClient);
+require("./routes/songs.js")(app, songsRepository, commentsRepository);
 require("./routes/authors")(app);
+require("./routes/comments.js")(app, commentsRepository);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

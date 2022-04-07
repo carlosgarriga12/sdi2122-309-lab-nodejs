@@ -3,18 +3,51 @@
 {% block title %} Detalles de canción {% endblock %}
 
 {% block main_container %}
-	 <div class="row">
-		<div class="media col-xs-10">
-		  <div class="media-left media-middle">
-			<img class="media-object" src="/covers/{{ song._id }}.png" >
-		  </div>
-		  <div class="media-body">
-			 <h2>{{ song.title }}</h2>
-			 <p>{{ song.author }}</p>
-			 <p>{{ song.kind }}</p>
-			 <button type="button" class="btn btn-primary pull-right">{{ song.price }}€</button>
-			 <!-- Cambiar el precio por "reproducir" si ya está comprada -->
-		  </div>
-		</div>
-	  </div>
+    <div class="row">
+        <div class="media col-xs-10">
+            <div class="media-left media-middle">
+                <img class="media-object" src="/covers/{{ song._id }}.png">
+            </div>
+            <div class="media-body">
+                <h2>{{ song.title }}</h2>
+                <p>{{ song.author }}</p>
+                <p>{{ song.kind }}</p>
+                <button type="button" class="btn btn-primary pull-right">{{ song.price }}€</button>
+                <!-- Cambiar el precio por "reproducir" si ya está comprada -->
+            </div>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>Autor</th>
+                <th>Texto</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for comment in comments %}
+                <tr>
+                    <td>{{ comment.author }}</td>
+                    <td>{{ comment.text }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <form class="form-horizontal " method="post" action="/comments/{{ song._id }}">
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="text">Add a comment:</label>
+            <div class="col-sm-10">
+                <input id="text" type="text" class="form-control" name="text" required/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary">Aceptar</button>
+            </div>
+        </div>
+    </form>
 {% endblock %}
