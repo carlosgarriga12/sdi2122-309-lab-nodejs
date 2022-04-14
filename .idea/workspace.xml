@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-9.3-Mensajes y alertas.">
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/purchase.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/buy.html" beforeDir="false" />
+    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-9.4-Sistema de compras.">
       <change beforePath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/userAudiosRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/userAudiosRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/layout.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/layout.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/songs/song.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/song.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +114,7 @@
       <workItem from="1649081895118" duration="22000" />
       <workItem from="1649166956093" duration="2353000" />
       <workItem from="1649341551258" duration="1658000" />
-      <workItem from="1649930622460" duration="2419000" />
+      <workItem from="1649930622460" duration="2874000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual.">
       <created>1648196026620</created>
@@ -241,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649932445570</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="SDI-2122-309-9.4-Sistema de compras.">
+      <created>1649933074651</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1649933074651</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +277,8 @@
     <MESSAGE value="SDI-2122-309--9.1-Gestión de colecciones, eliminar documento." />
     <MESSAGE value="SDI-2122-309-9.2-Redirección de peticiones." />
     <MESSAGE value="SDI-2122-309-9.3-Mensajes y alertas." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-9.3-Mensajes y alertas." />
+    <MESSAGE value="SDI-2122-309-9.4-Sistema de compras." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-9.4-Sistema de compras." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
