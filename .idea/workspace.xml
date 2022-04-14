@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-8.101-Ejercicio-complementario1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/publications.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/publications.twig" afterDir="false" />
+    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309--9.1-Gestión de colecciones, eliminar documento.">
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,7 @@
       <workItem from="1649081895118" duration="22000" />
       <workItem from="1649166956093" duration="2353000" />
       <workItem from="1649341551258" duration="1658000" />
-      <workItem from="1649930622460" duration="751000" />
+      <workItem from="1649930622460" duration="1121000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual.">
       <created>1648196026620</created>
@@ -215,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649343204267</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="SDI-2122-309--9.1-Gestión de colecciones, eliminar documento.">
+      <created>1649931660242</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1649931660242</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +251,8 @@
     <MESSAGE value="SDI-2122-309-8.4- Registro de usuario, autenticación y uso de sesión." />
     <MESSAGE value="SDI-2122-309-8.5- Colecciones relacionadas  y routers." />
     <MESSAGE value="SDI-2122-309-8.101-Ejercicio-complementario1" />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-8.101-Ejercicio-complementario1" />
+    <MESSAGE value="SDI-2122-309--9.1-Gestión de colecciones, eliminar documento." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309--9.1-Gestión de colecciones, eliminar documento." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
