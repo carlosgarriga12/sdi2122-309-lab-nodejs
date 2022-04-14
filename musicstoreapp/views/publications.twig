@@ -23,8 +23,8 @@
                 <tr>
                     <td>{{ song.title }}</td>
                     <td>{{ song.kind }}</td>
-                    <td><a href="/song/edit/{{ cancion._id.toString() }}">Modificar</a> <br>
-                        <a href="/song/delete/{{ cancion._id.toString() }}">Eliminar</a> <br>
+                    <td><a href="/song/edit/{{ song._id.toString() }}">Modificar</a> <br>
+                        <a href="/songs/delete/{{ song._id.toString() }}">Eliminar</a> <br>
                     </td>
                 </tr>
             {% endfor %}
