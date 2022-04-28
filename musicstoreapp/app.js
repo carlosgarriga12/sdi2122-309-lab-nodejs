@@ -3,8 +3,19 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-
 var app = express();
+
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Credentials", "true");
+  res.header("Access-Control-Allow-Methods", "POST, GET, DELETE, UPDATE, PUT");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, token");
+  // Debemos especificar todas las headers que se aceptan. Content-Type , token
+  next();
+});
+
+var jwt = require('jsonwebtoken');
+app.set('jwt',jwt);
 
 let expressSession = require('express-session');
 app.use(expressSession({
@@ -53,13 +64,16 @@ const userAuthorRouter = require('./routes/userAuthorRouter');
 app.use("/songs/edit",userAuthorRouter);
 app.use("/songs/delete",userAuthorRouter);
 
+const userTokenRouter = require('./routes/userTokenRouter');
+app.use("/api/v1.0/songs/", userTokenRouter);
+
 let songsRepository = require("./repositories/songsRepository.js");
 songsRepository.init(app, MongoClient);
 let commentsRepository = require("./repositories/commentsRepository.js")
 commentsRepository.init(app, MongoClient);
 
 require("./routes/songs.js")(app, songsRepository, commentsRepository);
-require("./routes/api/songsAPIv1.0.js")(app, songsRepository);
+require("./routes/api/songsAPIv1.0.js")(app, songsRepository, usersRepository);
 require("./routes/authors")(app);
 require("./routes/comments.js")(app, commentsRepository);
 
