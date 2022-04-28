@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-10.3-SW Cliente JQuery + AJAX">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/apiclient/client.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/client.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-songs.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-songs.html" afterDir="false" />
+    <list default="true" id="6d52eaf8-95cf-4565-9c20-82f8eae24099" name="Changes" comment="SDI-2122-309-10.4-SW Cliene JQuery + Ajax (Ampliaciones).">
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +126,7 @@
       <workItem from="1650611096466" duration="6201000" />
       <workItem from="1650730470466" duration="12000" />
       <workItem from="1651141136194" duration="271000" />
-      <workItem from="1651155351259" duration="1263000" />
+      <workItem from="1651155351259" duration="1613000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2122-309-7.1-Creación del proyecto Tienda Virtual.">
       <created>1648196026620</created>
@@ -295,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651156194078</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="SDI-2122-309-10.4-SW Cliene JQuery + Ajax (Ampliaciones).">
+      <created>1651156726162</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1651156726162</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +345,8 @@
     <MESSAGE value="SDI-2122-309-10.1-SW API REST CRUD Canciones." />
     <MESSAGE value="SDI-2122-309-10.2-SW API REST Autenticación." />
     <MESSAGE value="SDI-2122-309-10.3-SW Cliente JQuery + AJAX" />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-10.3-SW Cliente JQuery + AJAX" />
+    <MESSAGE value="SDI-2122-309-10.4-SW Cliene JQuery + Ajax (Ampliaciones)." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2122-309-10.4-SW Cliene JQuery + Ajax (Ampliaciones)." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
