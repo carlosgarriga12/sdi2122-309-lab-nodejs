@@ -607,7 +607,7 @@
       <recent name="C:\Users\carlo\IdeaProjects\sdi2122-309-lab-nodejs\musicstoreapp\public" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.www">
+  <component name="RunManager" selected="Node.js.hello-world-server.js">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="sdi2122-309-lab-nodejs" />
       <method v="2">
@@ -629,8 +629,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.www" />
         <item itemvalue="Node.js.hello-world-server.js" />
+        <item itemvalue="Node.js.www" />
       </list>
     </recent_temporary>
   </component>
